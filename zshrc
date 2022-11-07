@@ -70,3 +70,15 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
+/Users/ds_janf/Desktop/Personal/Github Key/lewagonbootcamp-365110-85fef8978c3b.json
+/Users/ds_janf/Desktop/Personal/Github Key/lewagonbootcamp-365110-85fef8978c3b.json
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/ds_janf/Desktop/Personal/GithubKey/lewagonbootcamp-365110-85fef8978c3b.json
+
+
+export PYTHONPATH="/Users/ds_janf/code/janmfriedli/data-context-and-setup:$PYTHONPATH"

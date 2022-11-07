@@ -74,10 +74,19 @@
     "window.restoreWindows": "none",
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "Monokai Pro Icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.renderWhitespace": "all",
+    "jupyter.widgetScriptSources": [
+      "jsdelivr.com",
+      "unpkg.com"
+    ],
+    "window.zoomLevel": 1,
 }
